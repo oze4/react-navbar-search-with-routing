@@ -59,7 +59,7 @@ class Main extends React.Component {
                         />
                         <Button onClick={this.handleSearchSubmit} variant="outline-info">
                             Search
-            </Button>
+                        </Button>
                     </Form>
                 </Navbar>
                 <Switch>
