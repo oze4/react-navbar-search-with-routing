@@ -10,7 +10,6 @@ export default class SearchResultsPage extends React.Component {
 
   handleSearch = () => {
     let searchText = this.props.location.state.searchText;
-    console.log(searchText);
     let results = ApiData.filter(item => item.title.includes(searchText));
     this.setState({
       isLoading: false,
